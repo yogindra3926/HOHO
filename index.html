@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input class="hello" type="text" placeholder="enter  your roll no in caps">
+    <button onclick="
+    disp();
+    ">ENTER</button>
+    <div class="hi">
+      
+    </div>
+    <script>
+        function disp(){
+            let e=document.querySelector('.hello').value;
+            if(e==='IEC2022116')document.querySelector('.hi').innerHTML='ALL THE BEST KARTHIK REDDY';
+            else if(e==='IEC2022072')document.querySelector('.hi').innerHTML='ALL THE BEST KETHAVATH AKASH';
+            else if(e==='IEC2022047')document.querySelector('.hi').innerHTML='ALL THE BEST YASHWANTH';
+            else if(e==='IFE2022015')document.querySelector('.hi').innerHTML='ALL THE BEST GANESH VARDHAN';
+            else document.querySelector('.hi').innerHTML='INVALID ROLL NO';
+        }
+    </script>
+</body>
+</html>
